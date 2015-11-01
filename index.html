@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery.raty-fa.js"></script>
+    <script type="text/javascript" src="js/review-info.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script src="//www.parsecdn.com/js/parse-1.6.0.min.js"></script>
+	<title>The King's Face</title>
+</head>
+<body>
+	<h1 id="title">The King's Face</h1>
+	<a id="picture"><img src="img/poster.jpg"></a>
+
+	<div id="average-rating">
+		<p>Average Rating: 
+			<div class="Star" id="average-star"></div>
+		</p>
+	</div>
+
+	<p id="info">The King's Face is a 2014 South Korean television series starring Seo In-guk, Jo Yoon-hee, Lee Sung-jae, Kim Gyu-ri and Shin Sung-rok. It aired on KBS2 from November 19, 2014 to February 5, 2015 on Wednesdays and Thursdays at 21:55 for 23 episodes.</p>
+
+	<form>
+		<div class="review-new">
+			<h3>Write a review!</h3>
+			<div class = "Star" id="star"></div>
+		</div>
+		<div class="form-group">
+			<div class="Star" id="review-star"></div>
+	        <input class="form-control" id="review-title" placeholder="Title"></input></br>
+	        <input class="form-control" id="review-description" placeholder="Description"></input></br>
+	        <button type="submit"> Save</button>
+	    </div>
+	</form>
+
+	<div class="review">
+		<h3>Reviews</h3>
+		<ol id="list">
+		</ol>
+	</div>
+</body>
+</html>
